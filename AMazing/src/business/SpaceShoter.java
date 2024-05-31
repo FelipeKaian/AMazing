@@ -27,69 +27,69 @@ public class SpaceShoter extends Minigame implements MinigamesInterface {
 					frame[i][j] = ' ';
 					break;
 				case 1:
-					frame[i][j] = '♝';
+					frame[i][j] = '#';
 					break;
 				case -1:
-					frame[i][j] = '█';
+					frame[i][j] = 'O';
 					break;
 				case 2:
-					frame[i][j] = '≜'; 
+					frame[i][j] = 'X'; 
 					break;
 				case 3:
-					frame[i][j] = '↟';
+					frame[i][j] = 'H';
 					break;
 				case 4:
-					frame[i][j] = '☤';
+					frame[i][j] = '0';
 					break;
 				case 5:
-					frame[i][j] = '⍫';
+					frame[i][j] = '>';
 					break;
 				case 6:
-					frame[i][j] = '⍢';
+					frame[i][j] = '<';
 					break;
 				case 7:
-					frame[i][j] = '⍢';
+					frame[i][j] = 'T';
 					break;
 				case 8:
-					frame[i][j] = '◯';
+					frame[i][j] = '^';
 					break;
 				case 9:
-					frame[i][j] = '✺';
+					frame[i][j] = 'm';
 					break;
 				case 10:
-					frame[i][j] = '⌘';
+					frame[i][j] = 'M';
 					break;
 				case 11:
-					frame[i][j] = '♝';
+					frame[i][j] = '*';
 					break;
 				case 12:
-					frame[i][j] = '✰';
+					frame[i][j] = '+';
 					break;
 				case 13:
-					frame[i][j] = '✫';
+					frame[i][j] = '=';
 					break;
 				case 14:
-					frame[i][j] = '✩';
+					frame[i][j] = '!';
 					break;
 				case 15:
-					frame[i][j] = '✯';
+					frame[i][j] = 'V';
 					break;
 				case 16:
-					frame[i][j] = '✮';
+					frame[i][j] = 'S';
 					break;
 				case 17:
-					frame[i][j] = '✬';
+					frame[i][j] = '.';
 					break;
 				case 18:
-					frame[i][j] = '♨';
+					frame[i][j] = '/';
 					break;
 
 				}
 			}
 		}
-		frame[x][y] = '♝';
+		frame[x][y] = '|';
 		if (buff) {
-			frame[x+1][y] = '≜';
+			frame[x+1][y] = '8';
 		}
 		return frame;
 

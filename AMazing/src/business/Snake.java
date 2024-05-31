@@ -56,16 +56,16 @@ public class Snake extends Minigame implements MinigamesInterface {
 			for (int j = 0; j < this.h; j++) {
 				switch (game[i][j]) {
 				case -2:
-					frame[i][j] = '♥';
+					frame[i][j] = 'O';
 					break;
 				case -1:
-					frame[i][j] = '█';
+					frame[i][j] = 'X';
 					break;
 				case 0:
 					frame[i][j] = ' ';
 					break;
 				default:
-					frame[i][j] = '▣';
+					frame[i][j] = '#';
 					break;
 				}
 			}

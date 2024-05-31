@@ -75,13 +75,13 @@ public class Arkanoide extends Minigame implements MinigamesInterface{
 					frame[i][j] = '@';
 					break;
 				case 2:
-					frame[i][j] = '▣';
+					frame[i][j] = 'O';
 					break;
 				case 3:
 					frame[i][j] = '=';
 					break;
 				case 4:
-					frame[i][j] = '█';
+					frame[i][j] = 'X';
 					break;
 				}
 			}
